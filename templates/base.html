@@ -1,10 +1,13 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel='stylesheet' href="{% static 'css/style.css' %}">
+    <link rel='stylesheet' href="{% static 'css/animate.css' %}">
+    {% block stylesheets %}{% endblock %}
     {% include 'base/css.html' %}
 
     <title>Movie Spot</title>
@@ -12,9 +15,9 @@
   <body>
     {% include 'base/navbar.html' %}
     <h1>Movie Spot</h1>
-    
+    {% block extra %}{% endblock %}
     {% block content %} {% endblock %}
-
     {% include 'base/js.html' %}
+
   </body>
 </html>

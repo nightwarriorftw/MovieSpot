@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}MovieSpotter{% endblock %}
+
+{% block content %}
+
+<header class="header" id="header">
+		<div class="container">
+			<figure class="logo animated fadeInDown">
+				<a href="#"><img src="{% static 'img/logo.svg' %}" alt=""></a>
+			</figure>
+			<h1 class="animated fadeInDown">MovieSpotter</h1>
+			<ul class="we-create animated fadeInUp">
+                <br>
+                <br>
+				{% include 'search/searchSnippets.html' %}
+			</ul>
+		</div>
+</header>
+
+{% endblock %}

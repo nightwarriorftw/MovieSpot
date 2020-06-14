@@ -1,0 +1,20 @@
+
+  <div class="card blue-gradient py-2" id="intro">
+    <!-- Content -->
+    <div class="card-body text-white text-center">
+
+      <h2 class="mb-4 font-weight-bold">
+        {{object.location}}
+      </h2>
+      <a href="{% url 'core:details' object.id %}" style="text-decoration: none; color:white;">
+      <p class="mb-4">
+        <strong class="font-weight-bold">Movie Name</strong>
+        <h4><span class="font-weight-bold" style='color: black;'>{{object.title}}</span></h4><br>
+
+        <strong class="font-weight-bold">Release Year: </strong>
+        <span class="font-weight-bold" style='color: black;'>{{object.release_year}}</span>
+      </p>
+      </a>
+
+    </div>
+  </div>

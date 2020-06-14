@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+ 
+<h3>Search Movie spot</h3>
+
+<div class="row">
+
+  <div class="col-6 align-left">
+    <i id="search-icon" class="fas fa-search"></i>
+    <input id="user-input" placeholder="Search">
+  </div>
+
+  
+  <div id="replaceable-content" class="col-6">
+    {% include 'movie-results.html' %}
+  </div>
+
+</div>
+
+{% endblock %}
