@@ -5,7 +5,6 @@ from django.http import JsonResponse
 
 from .models import MovieSpotModel
 
-import requests, json
 
 class Home(TemplateView):
     template_name = 'home.html'
