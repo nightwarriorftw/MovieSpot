@@ -18,7 +18,7 @@ Many people are often interested in visiting famous spots where movies were shot
 movies.
 
 ## :zap: Usage
-Just simpley visit [Your Movie Spot location](https://favmoviespot.herokuapp.com/) and search your favourite movie location.
+Just simply visit [Your Movie Spot location](https://favmoviespot.herokuapp.com/) and search your favourite movie location.
 
 ### :nut_and_bolt: Development Environment
 
@@ -98,6 +98,7 @@ python manage.py runserver
 
 ## :star2: Ack
 **Tech Stack used**
+
 Django, HTML5, CSS3, Javascript (Intermediate)
 Docker (Very familiar)
 Database Postgress(Production), Sqlite3(Staging)
@@ -105,3 +106,5 @@ Database Postgress(Production), Sqlite3(Staging)
 ## :lock: License
 
 [LICENSE](/LICENSE)
+
+*Haven't uploaded the database. Please make an issue on the repo in case you want to upload*
