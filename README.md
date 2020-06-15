@@ -91,9 +91,12 @@ python manage.py runserver
 ```
 
 ## :camera: Gallery
-
+Front Page
 ![Front page](./public/1.png)
+
+Search results for the client favourite movie
 ![Search Results Page](./public/2.png)
+Detailed View of Search result
 ![Details Page](./public/3.png)
 
 ## :star2: Ack
@@ -107,4 +110,4 @@ python manage.py runserver
 
 [LICENSE](/LICENSE)
 
-*Haven't uploaded the database. Please make an issue on the repo in case you want to upload*
+*Haven't uploaded the database. Please make an issue on the repo in case you want me to upload*
