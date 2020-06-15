@@ -15,6 +15,7 @@ RUN apk update \
     && apk add postgresql-dev \
     && pip install psycopg2 \
     && apk del build-deps
+    
 
 # install dependencies
 COPY ./requirements.txt .
