@@ -14,7 +14,7 @@
 
 ## :beginner: About
 
-Many people are often interested in visiting famous spots where movies were shot. This web application helps them find out shooting locations of their favorite 
+Many people are often interested in visiting famous spots where movies were shot. [This](https://favmoviespot.herokuapp.com/) web application helps them find out shooting locations of their favorite 
 movies.
 
 ## :zap: Usage
@@ -95,6 +95,12 @@ python manage.py runserver
 ![Front page](./public/1.png)
 ![Search Results Page](./public/2.png)
 ![Details Page](./public/3.png)
+
+## :star2: Ack
+**Tech Stack used**
+Django, HTML5, CSS3, Javascript (Intermediate)
+Docker (Very familiar)
+Database Postgress(Production), Sqlite3(Staging)
 
 ## :lock: License
 
