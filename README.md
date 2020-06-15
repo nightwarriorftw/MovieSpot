@@ -99,9 +99,9 @@ python manage.py runserver
 ## :star2: Ack
 **Tech Stack used**
 
-Django, HTML5, CSS3, Javascript (Intermediate)
-Docker (Very familiar)
-Database Postgress(Production), Sqlite3(Staging)
+- Django, HTML5, CSS3, Javascript (Intermediate)
+- Docker (Very familiar)
+- Database Postgress(Production), Sqlite3(Staging)
 
 ## :lock: License
 
